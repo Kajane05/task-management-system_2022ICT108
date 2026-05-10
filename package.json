@@ -4,6 +4,8 @@
   "description": "A system to organize, track and manage daily tasks efficiently",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Kajane05/task-management-system_2022ICT108/issues"
   },
@@ -22,7 +24,7 @@
     "body-parser": "^2.2.2",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoosh": "^0.0.7"
+    "mongoose": "^8.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
