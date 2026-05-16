@@ -77,12 +77,15 @@ Delete Task
 
 8.Setup Instructions
     Git Repository link: https://github.com/Kajane05/task-management-system_2022ICT108.git
+
     Backend Setup
     cd backend
     npm install
+
     Create  ' .env'  file
     MONGO_URL="mongodb://localhost:27017/taskManager"
     PORT=8000
+    
     Run Backend
     node index.js
 
