@@ -98,10 +98,12 @@ Delete Task
 
 9. How to Run the Project
 
-    Start Backend:- In terminal 
+    Start Backend:- In terminal
+   
     cd backend
     node index.js
 
     Start Frontend:- open new terminal and ,
+   
     cd frontend
     npm run dev
