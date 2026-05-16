@@ -38,7 +38,9 @@ Tools
 - GitHub
 
 6.Project Structure
+
 •	task-management-system
+
     1.	backend
         -   controllers
         -   models
@@ -57,7 +59,7 @@ Tools
  Create Task
     POST  'http://localhost:8000/api/task/create'
 
-    Example Reques -  json
+    Example RequestS -  json
     {
     "title": "IT2234 ICA3",
     "description": "Solo project work",
@@ -85,7 +87,7 @@ Delete Task
     Create  ' .env'  file
     MONGO_URL="mongodb://localhost:27017/taskManager"
     PORT=8000
-    
+
     Run Backend
     node index.js
 
