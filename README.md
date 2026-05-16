@@ -100,10 +100,10 @@ Delete Task
 
     Start Backend:- In terminal
    
-    cd backend
+    cd backend,
     node index.js
 
     Start Frontend:- open new terminal and ,
    
-    cd frontend
+    cd frontend,
     npm run dev
